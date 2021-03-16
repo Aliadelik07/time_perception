@@ -1,0 +1,248 @@
+0.5447 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+1.2459 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+2.1016 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+2.7066 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa7d9d3b670>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa7d83b4490>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+2.7070 	EXP 	window1: mouseVisible = True
+2.7071 	EXP 	window1: recordFrameIntervals = False
+2.8714 	EXP 	window1: recordFrameIntervals = True
+3.0555 	EXP 	window1: recordFrameIntervals = False
+3.1525 	EXP 	Created welcomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='welcomeText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+3.1810 	EXP 	Created firstImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='img/stim.png', interpolate=True, mask=None, maskParams=None, name='firstImg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+3.2069 	EXP 	Created blackImg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='img/black.png', interpolate=True, mask=None, maskParams=None, name='blackImg1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+3.2313 	EXP 	Created secondImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='img/stim.png', interpolate=True, mask=None, maskParams=None, name='secondImg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+3.2551 	EXP 	Created blackImg2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='img/black.png', interpolate=True, mask=None, maskParams=None, name='blackImg2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+3.2808 	EXP 	Created responseImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='img/resp.png', interpolate=True, mask=None, maskParams=None, name='responseImg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+3.2857 	EXP 	Created responseText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='responseText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Press SPACE to initiate a new trial', units='height', win=Window(...), wrapWidth=1)
+3.2888 	EXP 	Created endText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='endText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Thank you!', units='height', win=Window(...), wrapWidth=1)
+3.2971 	EXP 	welcomeText: autoDraw = True
+3.8816 	DATA 	Keypress: space
+3.8912 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1000, seed=None
+3.9054 	EXP 	New trial (rep=0, index=0): None
+3.9165 	EXP 	welcomeText: autoDraw = False
+3.9165 	EXP 	firstImg: autoDraw = True
+4.3645 	DATA 	Keypress: space
+7.9303 	EXP 	firstImg: autoDraw = False
+7.9303 	EXP 	firstImg: autoDraw = False
+7.9303 	EXP 	blackImg1: autoDraw = True
+8.8475 	EXP 	blackImg1: autoDraw = False
+8.8475 	EXP 	secondImg: autoDraw = True
+14.4643 	EXP 	secondImg: autoDraw = False
+14.4643 	EXP 	secondImg: autoDraw = False
+14.4643 	EXP 	blackImg2: autoDraw = True
+15.4791 	EXP 	blackImg2: autoDraw = False
+15.4791 	EXP 	blackImg2: autoDraw = False
+15.4791 	EXP 	responseImg: autoDraw = True
+16.4681 	DATA 	Keypress: 1
+16.5154 	EXP 	responseImg: autoDraw = False
+16.5154 	EXP 	responseText: autoDraw = True
+18.7018 	DATA 	Keypress: space
+18.7504 	EXP 	New trial (rep=1, index=0): None
+18.7587 	EXP 	responseText: autoDraw = False
+18.7587 	EXP 	firstImg: autoDraw = True
+21.9663 	EXP 	firstImg: autoDraw = False
+21.9663 	EXP 	firstImg: autoDraw = False
+21.9663 	EXP 	blackImg1: autoDraw = True
+22.8829 	EXP 	blackImg1: autoDraw = False
+22.8829 	EXP 	secondImg: autoDraw = True
+29.3016 	EXP 	secondImg: autoDraw = False
+29.3016 	EXP 	secondImg: autoDraw = False
+29.3016 	EXP 	blackImg2: autoDraw = True
+30.3194 	EXP 	blackImg2: autoDraw = False
+30.3194 	EXP 	responseImg: autoDraw = True
+31.2383 	DATA 	Keypress: 2
+31.2883 	EXP 	responseImg: autoDraw = False
+31.2883 	EXP 	responseText: autoDraw = True
+41.2816 	DATA 	Keypress: space
+41.3322 	EXP 	New trial (rep=2, index=0): None
+41.3412 	EXP 	responseText: autoDraw = False
+41.3412 	EXP 	firstImg: autoDraw = True
+47.3554 	EXP 	firstImg: autoDraw = False
+47.3554 	EXP 	firstImg: autoDraw = False
+47.3554 	EXP 	blackImg1: autoDraw = True
+48.2729 	EXP 	blackImg1: autoDraw = False
+48.2729 	EXP 	secondImg: autoDraw = True
+51.8924 	EXP 	secondImg: autoDraw = False
+51.8924 	EXP 	secondImg: autoDraw = False
+51.8924 	EXP 	blackImg2: autoDraw = True
+52.9071 	EXP 	blackImg2: autoDraw = False
+52.9071 	EXP 	responseImg: autoDraw = True
+57.3034 	DATA 	Keypress: 2
+57.3515 	EXP 	responseImg: autoDraw = False
+57.3515 	EXP 	responseText: autoDraw = True
+64.3139 	DATA 	Keypress: space
+64.3732 	EXP 	New trial (rep=3, index=0): None
+64.3822 	EXP 	responseText: autoDraw = False
+64.3822 	EXP 	firstImg: autoDraw = True
+69.1947 	EXP 	firstImg: autoDraw = False
+69.1947 	EXP 	firstImg: autoDraw = False
+69.1947 	EXP 	blackImg1: autoDraw = True
+70.1134 	EXP 	blackImg1: autoDraw = False
+70.1134 	EXP 	secondImg: autoDraw = True
+74.9296 	EXP 	secondImg: autoDraw = False
+74.9296 	EXP 	secondImg: autoDraw = False
+74.9296 	EXP 	blackImg2: autoDraw = True
+75.9430 	EXP 	blackImg2: autoDraw = False
+75.9430 	EXP 	responseImg: autoDraw = True
+77.2675 	DATA 	Keypress: 1
+77.3255 	EXP 	responseImg: autoDraw = False
+77.3255 	EXP 	responseText: autoDraw = True
+78.6345 	DATA 	Keypress: space
+78.6932 	EXP 	New trial (rep=4, index=0): None
+78.7026 	EXP 	responseText: autoDraw = False
+78.7026 	EXP 	firstImg: autoDraw = True
+83.0155 	EXP 	firstImg: autoDraw = False
+83.0155 	EXP 	firstImg: autoDraw = False
+83.0155 	EXP 	blackImg1: autoDraw = True
+83.9321 	EXP 	blackImg1: autoDraw = False
+83.9321 	EXP 	secondImg: autoDraw = True
+89.5502 	EXP 	secondImg: autoDraw = False
+89.5502 	EXP 	secondImg: autoDraw = False
+89.5502 	EXP 	blackImg2: autoDraw = True
+90.5670 	EXP 	blackImg2: autoDraw = False
+90.5670 	EXP 	responseImg: autoDraw = True
+91.1050 	DATA 	Keypress: 1
+91.1598 	EXP 	responseImg: autoDraw = False
+91.1598 	EXP 	responseText: autoDraw = True
+103.3411 	DATA 	Keypress: space
+103.4018 	EXP 	New trial (rep=5, index=0): None
+103.4109 	EXP 	responseText: autoDraw = False
+103.4109 	EXP 	firstImg: autoDraw = True
+106.3164 	EXP 	firstImg: autoDraw = False
+106.3164 	EXP 	firstImg: autoDraw = False
+106.3164 	EXP 	blackImg1: autoDraw = True
+107.2246 	EXP 	blackImg1: autoDraw = False
+107.2246 	EXP 	blackImg1: autoDraw = False
+107.2246 	EXP 	secondImg: autoDraw = True
+113.6445 	EXP 	secondImg: autoDraw = False
+113.6445 	EXP 	secondImg: autoDraw = False
+113.6445 	EXP 	blackImg2: autoDraw = True
+114.6597 	EXP 	blackImg2: autoDraw = False
+114.6597 	EXP 	responseImg: autoDraw = True
+115.1855 	DATA 	Keypress: 1
+115.2337 	EXP 	responseImg: autoDraw = False
+115.2337 	EXP 	responseText: autoDraw = True
+117.0950 	DATA 	Keypress: space
+117.1529 	EXP 	New trial (rep=6, index=0): None
+117.1618 	EXP 	responseText: autoDraw = False
+117.1618 	EXP 	firstImg: autoDraw = True
+123.4775 	EXP 	firstImg: autoDraw = False
+123.4775 	EXP 	firstImg: autoDraw = False
+123.4775 	EXP 	blackImg1: autoDraw = True
+124.3925 	EXP 	blackImg1: autoDraw = False
+124.3925 	EXP 	secondImg: autoDraw = True
+128.0103 	EXP 	secondImg: autoDraw = False
+128.0103 	EXP 	secondImg: autoDraw = False
+128.0103 	EXP 	blackImg2: autoDraw = True
+129.0275 	EXP 	blackImg2: autoDraw = False
+129.0275 	EXP 	responseImg: autoDraw = True
+129.5061 	DATA 	Keypress: 1
+129.5538 	EXP 	responseImg: autoDraw = False
+129.5538 	EXP 	responseText: autoDraw = True
+138.4508 	DATA 	Keypress: space
+138.5138 	EXP 	New trial (rep=7, index=0): None
+138.5226 	EXP 	responseText: autoDraw = False
+138.5226 	EXP 	firstImg: autoDraw = True
+143.0332 	EXP 	firstImg: autoDraw = False
+143.0332 	EXP 	firstImg: autoDraw = False
+143.0332 	EXP 	blackImg1: autoDraw = True
+143.9482 	EXP 	blackImg1: autoDraw = False
+143.9482 	EXP 	secondImg: autoDraw = True
+148.7664 	EXP 	secondImg: autoDraw = False
+148.7664 	EXP 	secondImg: autoDraw = False
+148.7664 	EXP 	blackImg2: autoDraw = True
+149.7830 	EXP 	blackImg2: autoDraw = False
+149.7830 	EXP 	responseImg: autoDraw = True
+151.2619 	DATA 	Keypress: 1
+151.3089 	EXP 	responseImg: autoDraw = False
+151.3089 	EXP 	responseText: autoDraw = True
+152.6887 	DATA 	Keypress: space
+152.7484 	EXP 	New trial (rep=8, index=0): None
+152.7573 	EXP 	responseText: autoDraw = False
+152.7573 	EXP 	firstImg: autoDraw = True
+157.3684 	EXP 	firstImg: autoDraw = False
+157.3684 	EXP 	firstImg: autoDraw = False
+157.3684 	EXP 	blackImg1: autoDraw = True
+158.2851 	EXP 	blackImg1: autoDraw = False
+158.2851 	EXP 	secondImg: autoDraw = True
+163.9036 	EXP 	secondImg: autoDraw = False
+163.9036 	EXP 	secondImg: autoDraw = False
+163.9036 	EXP 	blackImg2: autoDraw = True
+164.9205 	EXP 	blackImg2: autoDraw = False
+164.9205 	EXP 	responseImg: autoDraw = True
+170.7429 	DATA 	Keypress: 1
+170.7997 	EXP 	responseImg: autoDraw = False
+170.7997 	EXP 	responseText: autoDraw = True
+200.0120 	DATA 	Keypress: space
+200.1035 	EXP 	New trial (rep=9, index=0): None
+200.1130 	EXP 	responseText: autoDraw = False
+200.1130 	EXP 	firstImg: autoDraw = True
+203.3314 	EXP 	firstImg: autoDraw = False
+203.3314 	EXP 	firstImg: autoDraw = False
+203.3314 	EXP 	blackImg1: autoDraw = True
+204.2479 	EXP 	blackImg1: autoDraw = False
+204.2479 	EXP 	secondImg: autoDraw = True
+210.6665 	EXP 	secondImg: autoDraw = False
+210.6665 	EXP 	secondImg: autoDraw = False
+210.6665 	EXP 	blackImg2: autoDraw = True
+211.6822 	EXP 	blackImg2: autoDraw = False
+211.6822 	EXP 	responseImg: autoDraw = True
+216.4219 	DATA 	Keypress: 2
+216.4731 	EXP 	responseImg: autoDraw = False
+216.4731 	EXP 	responseText: autoDraw = True
+218.0474 	DATA 	Keypress: space
+218.0920 	EXP 	New trial (rep=10, index=0): None
+218.1003 	EXP 	responseText: autoDraw = False
+218.1003 	EXP 	firstImg: autoDraw = True
+224.1201 	EXP 	firstImg: autoDraw = False
+224.1201 	EXP 	firstImg: autoDraw = False
+224.1201 	EXP 	blackImg1: autoDraw = True
+225.0364 	EXP 	blackImg1: autoDraw = False
+225.0364 	EXP 	secondImg: autoDraw = True
+228.6552 	EXP 	secondImg: autoDraw = False
+228.6552 	EXP 	secondImg: autoDraw = False
+228.6552 	EXP 	blackImg2: autoDraw = True
+229.6711 	EXP 	blackImg2: autoDraw = False
+229.6711 	EXP 	responseImg: autoDraw = True
+233.4009 	DATA 	Keypress: 1
+233.4431 	EXP 	responseImg: autoDraw = False
+233.4431 	EXP 	responseText: autoDraw = True
+240.8367 	DATA 	Keypress: space
+240.8834 	EXP 	New trial (rep=11, index=0): None
+240.8917 	EXP 	responseText: autoDraw = False
+240.8917 	EXP 	firstImg: autoDraw = True
+245.7108 	EXP 	firstImg: autoDraw = False
+245.7108 	EXP 	firstImg: autoDraw = False
+245.7108 	EXP 	blackImg1: autoDraw = True
+246.6268 	EXP 	blackImg1: autoDraw = False
+246.6268 	EXP 	secondImg: autoDraw = True
+251.4447 	EXP 	secondImg: autoDraw = False
+251.4447 	EXP 	secondImg: autoDraw = False
+251.4447 	EXP 	blackImg2: autoDraw = True
+252.4616 	EXP 	blackImg2: autoDraw = False
+252.4616 	EXP 	responseImg: autoDraw = True
+267.9938 	DATA 	Keypress: 2
+268.0436 	EXP 	responseImg: autoDraw = False
+268.0436 	EXP 	responseText: autoDraw = True
+272.0205 	DATA 	Keypress: space
+272.0814 	EXP 	New trial (rep=12, index=0): None
+272.0896 	EXP 	responseText: autoDraw = False
+272.0896 	EXP 	firstImg: autoDraw = True
+277.0023 	EXP 	firstImg: autoDraw = False
+277.0023 	EXP 	firstImg: autoDraw = False
+277.0023 	EXP 	blackImg1: autoDraw = True
+277.9187 	EXP 	blackImg1: autoDraw = False
+277.9187 	EXP 	secondImg: autoDraw = True
+283.5372 	EXP 	secondImg: autoDraw = False
+283.5372 	EXP 	secondImg: autoDraw = False
+283.5372 	EXP 	blackImg2: autoDraw = True
+284.5534 	EXP 	blackImg2: autoDraw = False
+284.5534 	EXP 	responseImg: autoDraw = True
+339.8464 	DATA 	Keypress: 1
+339.8902 	EXP 	responseImg: autoDraw = False
+339.8902 	EXP 	responseText: autoDraw = True
+349.3315 	DATA 	Keypress: space
+349.3486 	EXP 	responseText: autoDraw = False
+349.3486 	EXP 	endText: autoDraw = True
+350.3489 	EXP 	endText: autoDraw = False
+350.3489 	EXP 	endText: autoDraw = False
+350.3842 	EXP 	window1: mouseVisible = True
